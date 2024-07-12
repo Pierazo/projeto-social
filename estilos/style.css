@@ -48,3 +48,30 @@ iframe#tela {
     width: 269px;
     height: 471px;
 }
+
+section#redes-sociais {
+    text-align: right;
+    /*mudança para direita*/
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    /*distanciar icones um do outro */
+    border-radius: 50%;
+    /*Redondamento de icones*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    /*Sombreamento sobre icones*/
+    box-sizing: border-box;
+
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    /*animação de botões */
+    box-shadow: 5px 5px 10px black;
+    /*Aumenta a sombra*/
+    transition: transform 0.5s;
+    /*movimentação suave dos icones*/
+}
